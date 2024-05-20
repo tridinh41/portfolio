@@ -30,8 +30,7 @@ const WebDesign = () => {
       <Canvas>
         <Suspense fallback={null}>
           <Stage environment="city" intensity={0.6}>
-            {/* <Mac /> */}
-            <Chair/>
+            <Mac/>
           </Stage>
           <OrbitControls enableZoom={false} autoRotate />
         </Suspense>

@@ -104,7 +104,8 @@ const Img = styled.img`
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  translate: -50% 0 0;
   right: 0;
   margin: auto;
   animation: animate 2s infinite ease alternate;
@@ -127,12 +128,12 @@ const Hero = () => {
             <Navbar />
             <Container>
                 <Left>
-                    <Title>Think. Make. Solve.</Title>
+                    <Title>Hello, I'm Trí.</Title>
                     <WhatWeDo>
                         <Line src="./img/line.png" />
-                        <Subtitle>What we do</Subtitle>
+                        <Subtitle>Who I am</Subtitle>
                     </WhatWeDo>
-                    <Desc>We enjoy creating delightful, human-centered digital experiences.</Desc>
+                    <Desc>I am a web developer, with a passion for programming.</Desc>
                     <Button>Learn More</Button>
                 </Left>
                 <Right>
@@ -151,7 +152,7 @@ const Hero = () => {
                       </Sphere>
                     </Suspense>
                   </Canvas>
-                    <Img src="./img/moon.png" />
+                    <Img src="./img/avatar.png" />
                 </Right>
             </Container>
         </Section>

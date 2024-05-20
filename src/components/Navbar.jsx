@@ -62,15 +62,13 @@ const Navbar = () => {
                 <Link>
                     <Logo src="./img/tridinh-logo.png" />
                     <List>
-                        <ListItem>Home</ListItem>
-                        <ListItem>Studio</ListItem>
-                        <ListItem>Works</ListItem>
-                        <ListItem>Contact</ListItem>
+                        {/* <ListItem>Home</ListItem> */}
+                        <ListItem>My Resume</ListItem>
                     </List>
                 </Link>
                 <Icons>
-                    <Icon src="./img/search.png" />
-                    <Button>Hire now</Button>
+                    {/* <Icon src="./img/search.png" /> */}
+                    <Button>Contact me</Button>
                 </Icons>
             </Container>
         </Section>
